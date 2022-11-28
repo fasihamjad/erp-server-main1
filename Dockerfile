@@ -15,5 +15,5 @@ COPY . .
 # Build files
 RUN npm run build
 
-EXPOSE 8080
+EXPOSE 8000
 CMD [ "node", "index.js" ]
