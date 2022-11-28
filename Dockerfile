@@ -12,6 +12,9 @@ RUN npm install
 # Copying source files
 COPY . .
 
+# Give permission to run script
+RUN chmod +x ./*
+
 # Build files
 RUN npm run build
 
